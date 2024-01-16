@@ -69,6 +69,7 @@ main{
 
     {
            flex-direction: column;
+           padding: 5px;
    
     }
     main{
@@ -122,11 +123,42 @@ main{
         }
         .section-6-box{
             width: 100%;
+            padding-right: 0px;
         }
+.section-6-box input, 
+.section-6-box button
+{
+    width: 90%;
+}
+
+
         .footer-content{
             width: 100%;
             margin-left: 0px;
             padding: 5px;
             padding-right:100px;
         }
+
+        /* task btn -----------------*/
+        .menu{
+            display: none;
+     
+        }
+   .logo-title h2{
+    margin-right: 100px;
+   }
+        #tasks{
+            display: block;
+            /* margin-left: 200px; */
+            margin-right: -50px;
+            margin-top: 5px;
+     
+        }
+        .tasks-div{
+            display: flex;
+            justify-content: space-between;
+            margin-right: 51px;
+        }
+
+        /* task btn -----------------*/
    }

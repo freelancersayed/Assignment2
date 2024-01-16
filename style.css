@@ -29,14 +29,13 @@ nav {
 
 .logo-title {
     /* width: 50%; */
-    /* display: inline-flex; */
+    display: inline-flex;
 }
 
 .logo {
-    width: 20px;
-    height: 20px;
-    margin-top: 3%;
-    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .menu {
@@ -57,6 +56,12 @@ a {
     gap: 20px;
 }
 
+/* task btn --------------------*/
+#tasks{
+    display: none;
+}
+
+/* task btn --------------------*/
 
 /* banner section --------------------------------------*/
 
@@ -102,23 +107,37 @@ a {
 }
 
 .banner-container .form-section {
-    background-color: #FF5400;
-    padding: 10px 0px;
-    margin-top: 20px;
+    padding: 21px 1px;
+    margin-top: 28px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.3);
     gap: 24px;
-
+    padding-top: 1px;
+}
+.form-section .btn {
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    padding-top: -20px;
 }
 
+.form-section button .img{
+    margin-left: 60px;
+}
+.img2{
+    position: relative;
+    right: 40px;
+    text-align: center;
+}
 .banner-container input {
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     border: none;
     outline: none;
     display: inline-flex;
-
+    background-color: rgb(255, 255, 255);
 }
+
 
 .primary-button {
     background-color: #ff5400;
@@ -132,7 +151,10 @@ a {
 
 
 }
-
+#search-btn{
+    padding: 15px 58px;
+    margin-top:20px;
+}
 .icon-search {
     color: #fff;
     font-size: 20px;
@@ -185,20 +207,26 @@ a {
 
 /* section-2-content ----------------------------------*/
 /* section 3 content -----------------------------------*/
-
+.section-3-container{
+    width: 100%;
+}
 .image-flex1 {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .image-flex2 {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .image-flex3 {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .section-3-container h2 {
@@ -209,7 +237,7 @@ a {
 }
 
 .section-3-container img {
-    max-width: 100%;
+    width: 100%;
 }
 
 /* section 3 content -----------------------------------*/
@@ -331,7 +359,7 @@ a {
     max-width: 500px;
     height: 300px;
     border-radius: 16px;
-    border: 2px solid hsl(0, 0%, 2%);
+    border: 2px solid rgb(255, 220, 220);
     background: hsla(0, 0%, 100%, 0.705);
     backdrop-filter: blur(2.5px);
     text-align: left;
@@ -358,13 +386,13 @@ a {
 
 .dis-card>h2 {
     line-height: 60px;
-    color: #131318;
+    color: hsl(0, 0%, 0%);
     font-family: Mulish;
     font-size: 24px;
     font-weight: 800;
 }
 .dis-card>p {
-    color: #5A5A5D;
+    color: hsl(0, 0%, 0%);
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -373,7 +401,7 @@ a {
     margin-bottom: 30px;
 }
 .dis-card > h4{
- color: #FF5400;
+ color: hsl(14, 100%, 50%);
 font-family: Mulish;
 font-size: 20px;
 font-style: normal;
@@ -419,7 +447,7 @@ margin-bottom: 30px;
 
 .section-6-box{
     border: 1px solid orangered;
-    width: 50%;
+    width: 45%;
     padding: 20px;
     padding-right:50px;
     border-radius: 10px;
@@ -432,6 +460,8 @@ margin-bottom: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
     width: 100%;
+    outline: none;
+    border:1px solid #eeeeee;
 
 }
 .section-6-box button{
