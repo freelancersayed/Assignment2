@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+header,
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.title-ins {
+    color: #FF5400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-title {
+    width: 50%;
+    display: flex;
+}
+
+.menu {
+    width: 50%;
+    /* justify-content: sp; */
+}
+
+.menu li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+
+/* banner section --------------------------------------*/
+
+.banner-container {
+    background-image: url('/Images/banner.png');
+    max-width: 1170px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 2px;
+}
+
+.linear-bacgroun {
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.title-container {
+    text-align: center;
+   width: 71%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.banner-title {
+    padding: 20px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 100px;
+}
+
+.banner-container .form-section {
+    background-color: #FF5400;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    gap: 24px;
+}
+
+.banner-container input {
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    display: inline-flex;
+}
+
+.primary-button {
+    background-color: hsl(27, 100%, 50%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700px;
+    border-radius: 5px;
+    padding: 18px 50px;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.icon-search {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+/* banner section --------------------------------------*/
+
+/* section-2-content ----------------------------------*/
+
+.section-2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.section-2-content {
+    /* max-width: 50%; */
+    text-align: left;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section-2-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section-2-content li {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+
+/* section-2-content ----------------------------------*/
+/* section 3 content -----------------------------------*/
+
+
+/* section 3 content -----------------------------------*/
+
+
+/* section4 -------------------------------------------*/
+.section-title {
+    text-align: center;
+}
+
+.section-4 {
+    margin-top: 50px;
+}
+
+.section-title>h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.box-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box {
+    height: 200px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box img {
+    padding: 10px;
+}
+
+.box h2 {
+    padding: 10px;
+}
+
+.box3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.box1 {
+    background-color: #fdf8f1;
+}
+
+.box2 {
+    background-color: #d5fffd;
+}
+
+.box3 {
+    background-color: hsl(65, 100%, 95%);
+}
+
+/* section4 -------------------------------------------*/
+
+
+
+
+
+
+
+/* footer -------------------------------------------*/
+footer {
+    text-align: center;
+    height: 500px;
+    background-color: #fdf8f1;
+    margin-top: 50px;
+}
+
+.footer-content {
+    padding: 100px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-content h1 {
+    padding: 20px;
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+.
+.footer-content p{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px; 
+}
+
+.foot-icon i {
+    padding:40px 20px;
+}
+.foot-icon li
