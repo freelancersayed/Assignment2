@@ -16,7 +16,7 @@ main{
       
     }
 .section-2-content{
-    max-width: 50%;
+    max-width: 100%;
     }
 .section-3-container
 .image-flex1,
@@ -24,13 +24,16 @@ main{
 .image-flex3,
 .section-2,
 .box-container,
-.box3
+.box3,
+.section-6-container-1
 {
   flex-direction: column;
   width: 100%;
   margin: auto;
 }
-
+.section-2-image {
+    max-width: 100%;
+}
 .banner-title{
     font-size: 30px;
 }
@@ -89,7 +92,7 @@ main{
     /* section-5 -------------------*/
     .card-1,.card-2,.card-3{
         float: none;
-        height: 330px;
+        height: 295px;
         font-size: 16px;
         padding-left: 27px;
         padding-top: 14px;
@@ -100,6 +103,30 @@ main{
         display: grid;
         word-wrap:break-word;
         grid-template-columns: repeat(2, 1fr);
-    
     }
+    .he{
+         margin-top: 0px;
+         margin-bottom: 0px;
+        }
+        .dis-card>p{
+            margin-bottom: 10px;
+        }
+        .dis-card>h4{
+            margin-bottom: 10px;
+        }
+        .section-6-text, .section-6-image{
+            width: 100%;
+        }
+        .section-6-video{
+            width: 100%;
+        }
+        .section-6-box{
+            width: 100%;
+        }
+        .footer-content{
+            width: 100%;
+            margin-left: 0px;
+            padding: 5px;
+            padding-right:100px;
+        }
    }

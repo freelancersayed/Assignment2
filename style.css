@@ -121,7 +121,7 @@ a {
 }
 
 .primary-button {
-    background-color: hsl(27, 100%, 50%);
+    background-color: #ff5400;
     color: #fff;
     font-size: 16px;
     font-weight: 700px;
@@ -154,7 +154,7 @@ a {
 }
 
 .section-2-content {
-    /* max-width: 50%; */
+    max-width: 50%;
     text-align: left;
     color: #5A5A5D;
     font-size: 16px;
@@ -173,6 +173,9 @@ a {
 .section-2-content li {
     margin-left: 40px;
     padding: 10px;
+}
+.section-2-image{
+    max-width: 50%;
 }
 
 .section-2-image img {
@@ -201,7 +204,7 @@ a {
 .section-3-container h2 {
     position: relative;
     top: 150px;
-    left: 150px;
+    text-align: center;
     color: #fff;
 }
 
@@ -380,6 +383,97 @@ margin-bottom: 30px;
 }
 
 /* section5 -------------------------------------------*/
+/* section6 -------------------------------------------*/
+.section-6{
+    margin-top: 80px
+    ;
+}
+.section-6-container-1{
+    display: flex;
+    margin-top: 50px;
+}
+.section-6-text{
+    width: 50%;
+}
+.section-6-text p, ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-6-video{
+    width: 50%;
+}
+.section-6-video video{
+    width: 100%;
+    border-radius: 16px;
+}
+.video-text{
+    color: white;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+}
+
+.section-6-container-1{
+    gap: 20px;
+}
+
+.section-6-box{
+    border: 1px solid orangered;
+    width: 50%;
+    padding: 20px;
+    padding-right:50px;
+    border-radius: 10px;
+    height: 330px;
+}
+
+.section-6-box input{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.section-6-box button{
+    width: 100%;
+    border-radius: 16px;
+    margin-left: 15px;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+.section-6-image img{
+    width: 100%;
+    border-radius: 16px;
+}
+.section-6-image{
+    width: 50%;
+}
+.Discounts{
+    text-align: center;
+    background-color: #FF5400;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 46%; 
+    transform: rotate(-20deg) scale( 80%);
+}
+.save-up{
+    font-size: 30px;
+    font-weight: 800px;
+}
+.section-6-box-heding{
+    margin-bottom: 20px;
+}
+.section-6-box-description{
+    margin-bottom: 20px;
+}
+
+
+/* section6 -------------------------------------------*/
 
 
 
@@ -390,6 +484,7 @@ footer {
     height: 500px;
     background-color: #fdf8f1;
     margin-top: 50px;
+    width: 100%;
 }
 
 .footer-content {
