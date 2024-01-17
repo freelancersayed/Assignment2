@@ -95,7 +95,7 @@ main{
         float: none;
         height: 295px;
         font-size: 16px;
-        padding-left: 27px;
+        padding-left: 25px;
         padding-top: 14px;
         padding-right: 0px
     }
@@ -109,11 +109,22 @@ main{
          margin-top: 0px;
          margin-bottom: 0px;
         }
+        .dis-card>h2{
+            margin-top: -25px
+        }
         .dis-card>p{
             margin-bottom: 10px;
         }
         .dis-card>h4{
             margin-bottom: 10px;
+        }
+        .dis-card> button{
+            padding-top: 12px;
+            margin-top: 15px;
+        }
+        .view-galary img {
+            width: 17px;
+            font-size: 10px;
         }
         .section-6-text, .section-6-image{
             width: 100%;
