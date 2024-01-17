@@ -159,6 +159,17 @@ main{
             justify-content: space-between;
             margin-right: 51px;
         }
-
         /* task btn -----------------*/
+        /* .extara-container */
+        .extara-text{
+            padding-top: 20px;
+        }
+        .extara-text h1{
+            margin-bottom: 5px;
+            line-height: 50px;
+            font-size: 40px;
+        }
+        .extara-text> .extara-btn{
+            margin-top: 20px
+        }
    }
