@@ -66,7 +66,7 @@ a {
 /* banner section --------------------------------------*/
 
 .banner-container {
-    background-image: url('../Images/banner.png');
+    background-image: url('./Images/banner.png');
     /* height: 577px; */
     background-size: cover;
     background-repeat: no-repeat;
@@ -341,17 +341,17 @@ a {
 }
 
 .place-1{
-    background-image: url('../Images/Group\ 39.png');
+    background-image: url('./Images/Group\ 39.png');
     height: 50vh;
     padding: 50px;
 }
 .place-2{
-    background-image: url('../Images/Group\ 40.png');
+    background-image: url('./Images/Group\ 40.png');
     height: 50vh;
     padding: 50px;
 }
 .place-3{
-    background-image: url('../Images/Group\ 39.png');
+    background-image: url('./Images/Group\ 39.png');
     height: 50vh;
     padding: 30px;
 }
@@ -530,7 +530,7 @@ footer {
     font-weight: 800;
 }
 
-. .footer-content p {
+.footer-content p {
     color: #5A5A5D;
     text-align: center;
     font-size: 16px;
